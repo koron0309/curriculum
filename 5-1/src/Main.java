@@ -58,7 +58,7 @@ public class Main {
 		// <以下記述>
 		// 問⑧ 配列arrayDateをList型に置換しましょう。
 		// ヒント：asListメソッドはプリミティブ型のデータ型のみ扱えます。
-		List<Integer> arrayDate = Arrays.asList(cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DATE));
+		List<Integer> arrayDate = Arrays.asList(cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DATE));
 	
 		// <以下記述>
 		// 問⑨ 上記で格納した要素を繰り返しで出力しましょう。
